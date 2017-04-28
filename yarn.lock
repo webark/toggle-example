@@ -1916,6 +1916,12 @@ ember-ajax@^2.4.1:
   dependencies:
     ember-cli-babel "^5.1.5"
 
+ember-browser-checker@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/ember-browser-checker/-/ember-browser-checker-0.0.6.tgz#cd0fd75f5bd7098041df69e3a0c7adb8633801be"
+  dependencies:
+    ember-cli-babel "^5.1.6"
+
 ember-cli-app-version@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/ember-cli-app-version/-/ember-cli-app-version-3.0.0.tgz#d67a33aeec7bd03187fbe72c5663dadec4c3368a"
@@ -2281,7 +2287,7 @@ ember-router-generator@^1.0.0:
   dependencies:
     recast "^0.11.3"
 
-ember-runtime-enumerable-includes-polyfill@^1.0.0:
+ember-runtime-enumerable-includes-polyfill@^1.0.0, ember-runtime-enumerable-includes-polyfill@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/ember-runtime-enumerable-includes-polyfill/-/ember-runtime-enumerable-includes-polyfill-1.0.4.tgz#16a7612e347a2edf07da8b2f2f09dbfee70deba0"
   dependencies:
@@ -2317,6 +2323,15 @@ ember-source@~2.13.0-beta.2:
 ember-test-helpers@^0.6.0-beta.1:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/ember-test-helpers/-/ember-test-helpers-0.6.3.tgz#f864cdf6f4e75f3f8768d6537785b5ab6e82d907"
+
+ember-toggle@next:
+  version "5.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/ember-toggle/-/ember-toggle-5.0.0-alpha.4.tgz#a7a612cb5299a5e1391072de4b0cf29660913ff8"
+  dependencies:
+    ember-browser-checker "0.0.6"
+    ember-cli-babel "^5.1.7"
+    ember-cli-htmlbars "^1.1.1"
+    ember-runtime-enumerable-includes-polyfill "^1.0.1"
 
 ember-try-config@^2.0.1:
   version "2.1.0"

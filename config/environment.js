@@ -4,6 +4,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'toggle-example',
+    podModulePrefix: 'toggle-example/ui',
     environment,
     rootURL: '/',
     locationType: 'auto',
